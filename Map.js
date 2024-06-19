@@ -1,0 +1,8 @@
+const tecnologias = new Map()
+tecnologias.set('React', {framework: false})
+tecnologias.set('Angular', {framework: true})
+console.log(tecnologias.get('React'))
+tecnologias.set('React', {framework: true})
+console.log(tecnologias.get('React'))
+tecnologias.set('React', {framework: false})
+console.log(`React é uma frame? ${tecnologias.get('React')}`)
